@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "251061573654",
+    "project_id": "residentcare-e80f5",
+    "storage_bucket": "residentcare-e80f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251061573654:android:81d6a81622a6909f86bd37",
+        "android_client_info": {
+          "package_name": "com.siliconst.residentcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251061573654-ss81uc2bakuaei2iv2jg3lh6gf2bd2an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJgHzCnkV7AKkuQ08rAtW3-Flg8QV2LuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251061573654-ss81uc2bakuaei2iv2jg3lh6gf2bd2an.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

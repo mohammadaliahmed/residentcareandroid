@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text=""
+            android:textColor="@color/colorBlue"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="3dp"
+            android:text=""
+            android:textColor="#fff"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="2dp"
+            android:text=""
+            android:textSize="13sp" />
+
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/black_corners"
+            android:gravity="center"
+            android:text="Customer Info"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="2">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/black_corners"
+                android:gravity="center"
+                android:text="Name :"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/black_corners"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/black_corners"
+                android:gravity="center"
+                android:text="House #:"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/houseNumber"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/black_corners"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/black_corners"
+                android:gravity="center"
+                android:text="Block :"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/block"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/black_corners"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/black_corners"
+                android:gravity="center"
+                android:text="Phone no:"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/black_corners"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000" />
+
+
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp">
+
+
+            <Button
+                android:id="@+id/call"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_bg_green"
+                android:inputType="text"
+                android:text="Call"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_bg"
+                android:inputType="text"
+                android:text="Close"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
